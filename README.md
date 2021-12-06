@@ -214,3 +214,7 @@ USB调试开启
 
 输入`adb -s [WSA的名称] shell settings put global http_proxy [IP]:[端口]`即可
 如果需要关闭代理的话只需要输入`adb -s [WSA的名称] shell settings put global http_proxy 0.0.0.0`即可
+
+---
+## 备注：
+此教程是按照贴吧大佬[晓星](https://tieba.baidu.com/p/7609268378)改编而来，理论来说改编后更为具体（？），至少可以不自己fork了qwq
